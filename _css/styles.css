@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i&display=swap');
+
+body {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	color: #111;
+	background: #fff;
+}
+
+/* ----------------------- Structure ----------------------- */
+
+.container {
+	margin-top: 56px;
+}
+
+/* ----------------------- Typography ----------------------- */
+
+h1, h2 {
+	font-weight: 700;
+	margin-bottom: 1rem;
+	color: #000;
+}
+
+h1 {
+	font-family: 'DM Serif Display', serif;
+	font-size: 4rem;
+	line-height: 4.8rem;
+	background: -webkit-linear-gradient( 94deg,  rgba(255,85,85,1) 0.1%, rgba(85,85,255,1) 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;	
+}
+
+h2 {
+	font-size: 3.2rem;
+	line-height: 3.4rem;
+}
+
+.intro {
+	font-weight: 400;
+	font-size: 1.75rem;
+	line-height: 2.4rem;
+margin-bottom: 32px;
+}
+
+.blurb {
+	font-weight: 400;
+	font-size: 1.75rem;
+	line-height: 2.2rem;
+}
+
+.intro a {
+	color: #2b3595;
+}
+
+/* ----------------------- Buttons ----------------------- */
+
+.btn {
+display: inline-block;
+color: #000;
+text-decoration: none;
+border: 2px solid #000;
+background: transparent;
+padding: .5rem 1rem;
+font-weight: 600;
+}
+
+.btn:hover {
+	color: #2b3595;
+	border-color: #2b3595;
+}
