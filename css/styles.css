@@ -1,73 +1,60 @@
 
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
 
 body {
-	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 1.2rem;
-	line-height: 1.5rem;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 18px;
+	line-height: 1.8rem;
 	color: #111;
 	background: #fff;
+	margin: 0;
 }
 
 /* ----------------------- Structure ----------------------- */
 
-.container {
-	margin-top: 56px;
+.row {
+padding: 0 32px;
 }
+
+.intro-section {
+	padding-top: 128px;
+	max-width: 700px;
+}
+
 
 /* ----------------------- Typography ----------------------- */
 
-h1, h2 {
-	font-weight: 700;
-	margin-bottom: 1rem;
-	color: #000;
+p {
+	margin: 0 0 16px 0;
+}
+
+.intro-section p {
+	font-size: 32px;
+	line-height: 40px;
+	color: #555;
 }
 
 h1 {
-	font-family: 'DM Serif Display', serif;
-	font-size: 4rem;
-	line-height: 4.8rem;
-	background: -webkit-linear-gradient( 94deg,  rgba(255,85,85,1) 0.1%, rgba(85,85,255,1) 100% );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;	
+	margin: 0 0 1rem;
+	color: #000;
+	font-size: 64px;
+	line-height: 80px;
+	font-weight: 700;
 }
 
-h2 {
-	font-size: 3.2rem;
-	line-height: 3.4rem;
-}
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 40px;
+		line-height: 48px;
+	}
 
-.intro {
-	font-weight: 400;
-	font-size: 1.75rem;
-	line-height: 2.4rem;
-margin-bottom: 32px;
-}
-
-.blurb {
-	font-weight: 400;
-	font-size: 1.75rem;
-	line-height: 2.2rem;
-}
-
-.intro a {
-	color: #2b3595;
-}
-
-/* ----------------------- Buttons ----------------------- */
-
-.btn {
-display: inline-block;
-color: #000;
-text-decoration: none;
-border: 2px solid #000;
-background: transparent;
-padding: .5rem 1rem;
-font-weight: 600;
-}
-
-.btn:hover {
-	color: #2b3595;
-	border-color: #2b3595;
-}
+	.intro-section p {
+		font-size: 24px;
+		line-height: 32px;
+	}
+  }
